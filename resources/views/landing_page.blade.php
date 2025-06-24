@@ -29,6 +29,15 @@
     justify-content: center;
   }
 
+  .sidebar-logo { 
+    display: block; 
+    margin: 0 auto; 
+    width: 80px; /* Atur ukuran sesuai kebutuhan */ 
+    height: 80px; 
+    object-fit: cover; 
+    opacity: 0.9; 
+  }
+
   .container {
     padding: 60px 20px;
   }
@@ -153,7 +162,7 @@
           <div class="card-body d-flex justify-content-between align-items-center px-4 py-4">
             <div class="me-3 fade-in fade-in-delay-2" style="flex: 1;">
               <div class="text-center mb-2">
-                <i class="fas fa-hospital-symbol icon-hospital"></i>
+                <img src="{{asset('lte/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="sidebar-logo img-circle elevation-3">
               </div>
               <div class="card-header text-center p-0 mb-2 border-0">
                 <a href="./"><b>Selamat</b> Datang</a>
